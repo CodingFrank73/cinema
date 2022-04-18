@@ -39,10 +39,16 @@ const ReservationPopUp = (props) => {
             body: JSON.stringify({ besteller, email })
 
         })
-            .then((res) => res.json)
+            .then((res) => {
+                fetch("http://localhost:9000/seats/clearReservationsArray", { method: 'DELETE' })
+                res.json()
+            })
+
+        props.setReservations([])
         props.handleClose()
     }
 
+    // 
 
     const isOrderChecked = (e) => {
         e.checked ? setOrder(true) : setOrder(false)

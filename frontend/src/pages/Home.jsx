@@ -48,7 +48,7 @@ function Home() {
                 </footer>
             </div>
 
-            {isOpen && <ReservationPopUp reservations={reservations} handleClose={togglePopup} />}
+            {isOpen && <ReservationPopUp reservations={reservations} setReservations={setReservations} handleClose={togglePopup} />}
         </div>
     );
 }
