@@ -130,28 +130,28 @@
     "id": "6u7d9207",
     "reihe": "1",
     "seatNumber": "1",
-    "isBooked": false,
+    "isBooked": true,
     "price": 10
   },
   {
     "id": "3k7d4506",
     "reihe": "1",
     "seatNumber": "2",
-    "isBooked": false,
+    "isBooked": true,
     "price": 10
   },
   {
     "id": "6x7d4206",
     "reihe": "1",
     "seatNumber": "3",
-    "isBooked": false,
+    "isBooked": true,
     "price": 10
   },
   {
     "id": "3a7k2983",
     "reihe": "1",
     "seatNumber": "4",
-    "isBooked": false,
+    "isBooked": true,
     "price": 10
   },
   {
